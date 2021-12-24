@@ -1,0 +1,30 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Sort {
+        public static void sortShapes(Shape[] array,
+                                      List<Shape> shapes,
+                                      List<Polygon> polygons,
+                                      List<Square> squares,
+                                      List<Circle> circles) {
+            // write your code here
+        }
+    }
+
+    //Don't change classes below
+    class Shape { }
+    class Polygon extends Shape { }
+    class Square extends Polygon { }
+    class Circle extends Shape { }
+  learner_created: false
+- name: src/Shapes.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/4340#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 18 Dec 2021 17:33:25 UTC
+record: -1
